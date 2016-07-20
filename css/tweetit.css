@@ -1,0 +1,43 @@
+
+a#tweetit-btn
+{
+  position: absolute;
+  padding: 14px 7px 4px 7px;
+  background-color:#292f33;
+  border-radius: 4px;
+  width:50px;
+  height:40px;
+  text-align: center;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  transform: translate(-10px, 0); 
+}
+
+.svg-bird {
+  position:relative;
+  top:-10px;
+  left:-20px;
+  width: 30px;
+  height: 30px;
+  fill: #55acee;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fff;
+}
+
+.svg-icon circle {
+  stroke: #fff;
+  stroke-width: 1;
+}

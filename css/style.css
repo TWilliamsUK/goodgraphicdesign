@@ -158,6 +158,7 @@ li {
 }
 
 #top_arrow {
+	display: none;
 	position: fixed;
 	bottom: 2em;
 	right: 6em;	

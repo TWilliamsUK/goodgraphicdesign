@@ -49,6 +49,10 @@ p {
 	margin: 0;
 }
 
+#future p:last-of-type {
+	margin-bottom: 8em;
+}
+
 p + p {
 	text-indent: 2em;
 }
@@ -160,7 +164,7 @@ li {
 #top_arrow {
 	display: none;
 	position: fixed;
-	bottom: 2em;
+	bottom: 2.5em;
 	right: 6em;	
 	width: 1.5em;
 	height: 1.5em;
@@ -223,6 +227,10 @@ li {
 	#top_arrow:hover {
 	transform: none;
 	box-shadow: none;
+	}
+
+	#future p:last-of-type {
+	margin-bottom: 0;
 	}
 
 }
